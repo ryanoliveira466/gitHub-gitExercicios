@@ -1,6 +1,6 @@
 # Instruções para Repositório Git
 
-## 1. Criação e Clone do Repositório
+## Criação e Clone do Repositório
 
 Crie um novo repositório no GitHub. Faça o clone desse repositório no seu computador, usando o terminal.
 
@@ -22,7 +22,7 @@ A sua branch foi criada, mas você ainda está na `master`! Para trocar de branc
 
 Nas próximas repetições, você vai criar branches com outros nomes, então tome cuidado!
 
-## 2. Criação de Pastas e Arquivos
+## Criação de Pastas e Arquivos
 
 Crie uma pasta chamada `aulagit` (sem espaços ou acentos). Vamos relembrar os comandos que vimos na aula de terminal!
 
@@ -52,7 +52,7 @@ Para editar o arquivo, abra-o no seu editor de texto preferido (VSCode, Bloco de
 
 Nas próximas repetições, você vai criar outros arquivos com nomes e conteúdos diferentes. Tome cuidado!
 
-## 3. Comandos Git
+## Comandos Git
 
 ### Verificando o Status
 
@@ -98,7 +98,7 @@ Volte para a sua branch `main/master`!
 
 No seu terminal, use o comando `git checkout main`.
 
-## 4. Repetindo os Passos com Novos Arquivos
+## Repetindo os Passos com Novos Arquivos
 
 Agora você vai repetir os passos acima mais 4 vezes, mas em cada uma delas, você deve:
 
