@@ -36,7 +36,7 @@ Entre na pasta `aulagit` e crie uma pasta chamada `sobre-mim`.
 
 💡 **Dica**
 
-Sua estrutura de pastas ficará assim: `Nome-Repo > aulagit > sobre-mim`.
+    Sua estrutura de pastas ficará assim: `Nome-Repo > aulagit > sobre-mim`.
 
 Entre na pasta `sobre-mim` e crie um arquivo chamado `minha-bio.txt`.
 
