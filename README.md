@@ -6,15 +6,17 @@ Crie um novo repositório no GitHub. Faça o clone desse repositório no seu com
 
 💡 **Dica**
 
-Ao abrir o terminal, verifique em qual pasta você está. Nós iremos clonar o repositório na pasta do seu usuário no computador, então veja como fazer isso:
-
+```
+Ao abrir o terminal, verifique em qual pasta você está. 
+Nós iremos clonar o repositório na pasta do seu usuário no computador, então veja como fazer isso:
+```
 - **Windows**: abra o terminal do Git Bash e rode o comando `cd ~`
 
 Usando o terminal, entre na pasta que o clone acabou de criar. Crie uma nova branch chamada `git-1` e acesse ela.
 
 💡 **Dica**
 
-Para entrar na pasta do repositório clonado, use o comando `cd nome-da-pasta`.
+    Para entrar na pasta do repositório clonado, use o comando `cd nome-da-pasta`.
 
 Ao entrar, você automaticamente é colocado na branch `master/main`, e é possível criar uma branch nova usando o comando `git branch nome-da-branch`.
 
@@ -28,7 +30,7 @@ Crie uma pasta chamada `aulagit` (sem espaços ou acentos). Vamos relembrar os c
 
 💡 **Dica**
 
-Para criar uma pasta, você pode usar o comando `mkdir nome-da-pasta`.
+    Para criar uma pasta, você pode usar o comando `mkdir nome-da-pasta`.
 
 Entre na pasta `aulagit` e crie uma pasta chamada `sobre-mim`.
 
@@ -40,13 +42,13 @@ Entre na pasta `sobre-mim` e crie um arquivo chamado `minha-bio.txt`.
 
 💡 **Dica**
 
-Para criar um arquivo em branco, você pode usar o comando `touch nome-do-arquivo`.
+    Para criar um arquivo em branco, você pode usar o comando `touch nome-do-arquivo`.
 
 Agora você deve editar esse arquivo `minha-bio.txt`. Você deve escrever uma mini biografia sua de no máximo 50 palavras.
 
 💡 **Dica**
 
-Para editar o arquivo, abra-o no seu editor de texto preferido (VSCode, Bloco de Notas, VIM, ou qualquer outro).
+    Para editar o arquivo, abra-o no seu editor de texto preferido (VSCode, Bloco de Notas, VIM, ou qualquer outro).
 
 **Algumas ideias**: onde nasceu, onde mora, o que gosta de fazer nas horas livres, a antiga profissão antes de querer ser um desenvolvedor de software, o que te interessa em tecnologia... Use a criatividade, mas não perca muito tempo rebuscando o texto, pode ser algo simples.
 
@@ -60,7 +62,7 @@ Após salvar o arquivo, você realizou uma alteração no seu repositório! Veja
 
 💡 **Dica**
 
-Use o comando `git status`.
+    Use o comando `git status`.
 
 ### Adicionando Arquivos à Staging Area
 
@@ -68,7 +70,7 @@ Faça um `add` do seu arquivo alterado, para que ele seja enviado para a Staging
 
 💡 **Dica**
 
-Use o comando `git add .` para adicionar todos os arquivos dentro de sua pasta atual à Staging Area.
+    Use o comando `git add .` para adicionar todos os arquivos dentro de sua pasta atual à Staging Area.
 
 Se quiser garantir que adicionou todos os arquivos dentro do repositório, independente de qual pasta você está, use o comando `git add --all`.
 
@@ -78,7 +80,7 @@ Faça um commit das suas alterações. Escreva uma mensagem breve explicando o q
 
 💡 **Dica**
 
-Use o comando `git commit -m "mensagem-descrevendo-a-mudança-feita"`.
+    Use o comando `git commit -m "mensagem-descrevendo-a-mudança-feita"`.
 
 Não se esqueça que devem ser usadas aspas duplas `" "`.
 
@@ -88,7 +90,7 @@ Hora de mandar as alterações para o seu repositório remoto! Faça o push das 
 
 💡 **Dica**
 
-Use o comando `git push origin nome-da-branch-que-você-está`.
+    Use o comando `git push origin nome-da-branch-que-você-está`.
 
 ### Voltando para a Branch Main/Master
 
@@ -96,14 +98,15 @@ Volte para a sua branch `main/master`!
 
 💡 **Dica**
 
-No seu terminal, use o comando `git checkout main`.
+    No seu terminal, use o comando `git checkout main`.
 
 ## Repetindo os Passos com Novos Arquivos
 
 Agora você vai repetir os passos acima mais 4 vezes, mas em cada uma delas, você deve:
 
-1. Criar uma branch com um nome diferente.
-2. Adicionar arquivos diferentes à pasta.
+1 - Criar uma branch com um nome diferente.
+
+2 - Adicionar arquivos diferentes à pasta.
 
 ### Detalhes das Repetições:
 
@@ -121,6 +124,11 @@ Agora você vai repetir os passos acima mais 4 vezes, mas em cada uma delas, voc
 
 - **Branch:** `git-5`  
   **Arquivo:** `redes-sociais.txt`
+
+
+Este arquivo deve conter algumas das redes sociais nas quais você tem conta! Pode colocar apenas o nome da rede social.
+
+Ao final do exercício você deve ter criado 5 branches!
 
 
 Este arquivo deve conter algumas das redes sociais nas quais você tem conta! Pode colocar apenas o nome da rede social.
